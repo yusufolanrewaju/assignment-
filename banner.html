@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<style>
+		*{
+			font-family: sans-serif;
+			margin: 10px;
+		}
+	.banner {
+			background-color: rgb(211, 240, 240);
+			padding: 20px;}
+
+	.content {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			border: 20px;
+		}
+	.text {
+			flex: 1;
+		}
+	.image img {
+			max-width: 200px;
+			height: auto;
+		}
+	.boxes {
+			display: flex;
+			justify-content: space-between;
+  			margin: 0;
+		}
+	.box { 
+			width: 250px;
+			height: 250px; 
+			background-color: rgb(245, 59, 27); 
+			border-radius: 35px;
+			text-align: center;
+			justify-content: center;
+			color: white;
+		}
+	p.hd {
+			text-transform: uppercase;
+			font-size: 13px;
+			margin-bottom: 0;
+		}
+	#small{
+		font-size: 7px;
+	}
+	.ima-ge{
+			display: flex;
+			justify-content: flex-end;
+			overflow: hidden;
+		}
+	.image{
+			flex: 1;
+			border-top-left-radius: 50px;
+			border-bottom-left-radius: 50px;
+		}
+	.img{
+		width: 100%;
+		height: auto;
+		border-top-left-radius: 50px;
+		border-bottom-left-radius: 50px;
+	}
+	.icon{
+		margin-bottom: 0;
+		mix-blend-mode: multiply;
+		object-fit: cover;
+		height: 100%;
+	}
+	br{
+		margin: 0;
+	}
+	.bx{
+		border-radius: 5px;
+		border-style: solid;
+		border-color: white;
+		padding: 5px;
+		width: fit-content;
+		
+	}
+	.mg{
+		background-color: inherit;
+		display: inline-block;
+		justify-content: center;
+		width: 45px;
+		height: 45px;
+	}
+			
+	</style>
+	</head>
+
+	<body> 
+		<div class="banner">    
+			<div class="content">      
+				<div class="text">  
+					<p class="hd">welcome to</p>    
+					<h1>Dental Clinic</h1>       
+					<p class="hd">254 W 27ST, NEW york, ny 10011</p>
+					<p class="hd">(212) 123-4567</p>
+					<p class="hd">341 w 11st, new york, ny 10022</p>
+					<p class="hd">(212) 123-4567</p>
+					<p id="small">Image from <u>Freepik</u></p>    
+					<div class="bx"><p class="hd" id="bn">book online</p></div> 
+				</div>
+			<div class="ima-ge">      			
+				<div class="image">       
+					<img src="icons/image.jpg" alt="A happy Scientist" class="img">     
+				</div>
+			</div>    
+			</div>    
+
+
+
+			<div class="boxes">      
+				<div class="box">
+					<div class="mg"><img src="icons/clinic.png" alt="dental care" class="icon"/></div><br/>
+					<p class="hd">dental care</p>
+					<p>Sample text. Click to select<br/>the text box.</p>
+					<br/><p class="hd"><u>more</u></p>
+				</div>   
+
+				<div class="box">
+					<div class="mg"><img src="icons/clc.png" alt="dental care" class="icon"/></div><br/>
+					<p class="hd">oral surgery</p>
+					<p>Sample text. Click to select<br/>the text box.</p>
+					<br/><p class="hd"><u>more</u></p>
+				</div>      
+
+				<div class="box">
+					<div class="mg"><img src="icons/tht.png" alt="dental care" class="icon"/></div><br/>
+					<p class="hd">dental bridges</p>
+					<p>Sample text. Click to select<br/>the text box.</p>
+					<br/><p class="hd"><u>more</u></p>
+				</div>      
+
+				<div class="box">
+					<div class="mg"><img src="icons/tpt.png" alt="dental care" class="icon"/></div><br/>
+					<p class="hd">teeth cleaning</p>
+					<p>Sample text. Click to select<br/>the text box.</p>
+					<br/><p class="hd"><u>more</u></p>
+				</div>    
+			</div>  
+		</div>
+	</body>
+</html>
